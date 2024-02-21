@@ -1,0 +1,20 @@
+# requirements.txt
+pandas as pd 
+numpy as np
+# spaCy library
+spacy==3.2.0
+
+# spaCy English language model with NER components
+# Choose one of the following based on your requirements:
+# Small model
+en_core_web_sm==3.2.0
+
+# Medium model
+en_core_web_md==3.2.0
+
+# Large model
+en_core_web_lg==3.2.0
+
+# Optional: scikit-learn for training additional NER models
+# Uncomment the line below if you plan to train your own models
+scikit-learn==0.24.2
